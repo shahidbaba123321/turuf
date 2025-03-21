@@ -1,12 +1,15 @@
-
 {
-  "name": "koshur-turuf-server",
-  "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "name": "koshur-turuf-client",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "proxy": "http://localhost:3001"
 }
