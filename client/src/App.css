@@ -2,3 +2,64 @@
   text-align: center;
   font-family: Arial, sans-serif;
 }
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Styles from Game.js for consistency */
+.game-container {
+  padding: 20px;
+}
+
+.game-info {
+  margin-bottom: 20px;
+}
+
+.player-hand {
+  margin: 20px 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.trump-selection {
+  margin: 20px 0;
+}
+
+.trump-selection input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.current-trick {
+  margin-top: 20px;
+}
